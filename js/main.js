@@ -15,3 +15,11 @@ var typed = new Typed(".text2", {
   loop: false
 });
 
+var typed = new Typed(".text3", {
+  strings: ["Me"],
+  typeSpeed: 500,
+  // backSpeed: 500,
+  // backDelay: 10000,
+  loop: false
+});
+

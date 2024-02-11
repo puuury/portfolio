@@ -1,0 +1,41 @@
+.about
+{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  gap: 1.5rem;
+}
+.about-img img
+{
+  padding-bottom: 20%;
+  max-width: 630px;
+  height: auto;
+  width: 100%;
+  border-top-right-radius: 25%;
+  border-bottom-left-radius: 40%;
+  border-top-left-radius: 70%;
+  border-bottom-right-radius: 35%;
+}
+.about-text h2
+{
+  font-size: 60px;
+}
+.about-text h2 span
+{
+  color: #0ef;
+}
+.about-text h4
+{
+  font-size: 29px;
+  font-weight: 600;
+  line-height: 1.7;
+  margin: 15px 0 30px;
+}
+.about-text p
+{
+  color: aliceblue;
+  font-size: 20px;
+  line-height: 1.4;
+  padding-right: 25px;
+
+}

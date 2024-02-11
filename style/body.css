@@ -12,9 +12,19 @@
   padding: 70px 7% 0;
   color: #fff;
 }
-.home-content h1,
-h3,
-p
+.home-content h1
+{
+  opacity: 0;
+  animation: slideBottom 1s ease forwards;
+  animation-delay: .7s;
+}
+.home-content h3
+{
+  opacity: 0;
+  animation: slideBottom 1s ease forwards;
+  animation-delay: .7s;
+}
+.home-content p 
 {
   opacity: 0;
   animation: slideBottom 1s ease forwards;
