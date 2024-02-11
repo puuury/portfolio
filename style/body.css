@@ -1,7 +1,7 @@
 .home
 {
   width: 100%;
-  justify-content: space-between;
+  justify-content: center;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -26,6 +26,7 @@
 }
 .home-content p 
 {
+  font-size: 21px;
   opacity: 0;
   animation: slideBottom 1s ease forwards;
   animation-delay: .7s;
