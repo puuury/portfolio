@@ -1,0 +1,38 @@
+#services
+{
+  color: aliceblue;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 4rem;
+}
+.sub-title
+{
+  text-align: center;
+  font-size: 60px;
+  padding-bottom: 70px;
+}
+.sub-title span
+{
+  color: #0ef;
+}
+.container
+{
+  padding: 90px;
+}
+.services-list
+{
+  display:  grid;
+  grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
+}
+.services-list div
+{
+  background-color: transparent;
+  padding: 40px;
+  font-size: 13px;
+  font-weight: 13px;
+  border-right: 10px;
+  border-radius: 20px;
+  transition: background 0.5s, transform 0.5s;
+  box-shadow: 1px 1px 1px #012290f7,
+            1px 1px 40px #0053b8f7;
+}
