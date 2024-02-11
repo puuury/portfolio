@@ -26,6 +26,7 @@
 }
 .home-content p 
 {
+  line-height: 1.7;
   font-size: 21px;
   opacity: 0;
   animation: slideBottom 1s ease forwards;
@@ -57,8 +58,8 @@
 }
 .home .uniqh3
 {
-  font: 20px;
-  margin: 15px 0;
+  font: 25px;
+  margin: 10px 0;
 }
 .home h3 span
 {
