@@ -1,0 +1,67 @@
+header
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10px;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.logo
+{
+  position: relative;
+  font-size: 22px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: default;
+  opacity: 0;
+  animation: slideRight 1s ease forwards;
+}
+.logo span
+{
+  color: #0ef;
+}
+.navbar a
+{
+  display: inline-block;
+  font-size: 23px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 35px;
+  transition: 0.3s;
+  opacity: 0;
+  animation: slideRight .5s ease forwards;
+  animation-delay: calc(0.2s * var(--i));
+}
+.navbar a:hover
+{
+  color: #0ef;
+}
+
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes slideTop {
+  0% {
+    transform: translateY(50px);
+  }
+
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
