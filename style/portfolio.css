@@ -18,8 +18,10 @@
 .portfolio-content
 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, auto));
-
+  /* grid-template-columns: repeat(auto-fit, minmax(400px, auto)); */
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 50px 50px;
+  gap: 30px;
 }
 .row
 {
