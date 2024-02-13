@@ -18,18 +18,24 @@
 .container
 {
   padding: 90px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
 }
 .services-list
 {
   display:  grid;
-  grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
-  grid-gap: 40px;
+  grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+  grid-gap: 45px;
   margin-top: 50px;
+  margin-left: 65px;
+
 }
 .services-list div
 {
   background-color: transparent;
-  padding: 40px;
+  padding:40px;
   font-size: 13px;
   font-weight: 13px;
   border-right: 10px;
@@ -37,6 +43,13 @@
   transition: background 0.5s, transform 0.5s;
   box-shadow: 1px 1px 1px #012290f7,
             1px 1px 40px #0053b8f7;
+  min-height: 450px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 .services-list div i
 {
@@ -54,8 +67,11 @@
   text-decoration: none;
   color: #000;
   font-size: 12px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   display: inline-block;
+  position: absolute;
+  bottom: 15px;
+
 }
 .read
 {
@@ -73,6 +89,7 @@
   animation-delay: 2s;
   box-shadow: 0 0 5px #0ef,
   0 0 25px #0ef;
+ 
 }
 .read:hover
 {
