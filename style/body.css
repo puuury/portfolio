@@ -107,3 +107,18 @@
     opacity: 1;
   }
 }
+
+
+@media (max-width:710px) {
+  .home
+  {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .photo
+  {
+    margin-left: 25%;
+  }
+}

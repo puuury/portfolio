@@ -152,3 +152,9 @@
   padding: 10px;
   border-radius: 0.5rem;
 }
+@media (max-width:710px) {
+  .contact
+  {
+    grid-template-columns: 1fr;
+  }
+}
