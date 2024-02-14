@@ -239,3 +239,11 @@ section {
   animation: showText 0.5s 1s linear forwards;
   opacity: 0;
 }
+
+@media (max-width:710px) {
+  .container1
+  {
+    margin-top: 100px;
+    margin-left: 80px;
+  }
+}
