@@ -60,3 +60,32 @@
     scale: 0.8;
   }
 }
+
+@media (max-width:410px) {
+  .about {
+    margin-top: 450px;
+    grid-template-columns: 1fr;
+  }
+.about-img
+{
+  margin-left: 60px;
+  scale: 1;
+}
+  .about-text h2
+  {
+    font-size: 30px;
+    margin-left: 50%;
+  }
+  .about-text h4
+  {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-left: 50%;
+  }
+  .about-text p
+  {
+    margin-left: 25%;
+    margin-right: 0;
+    width: 390px;
+  }
+}
